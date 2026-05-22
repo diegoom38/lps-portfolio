@@ -198,15 +198,22 @@
             </div>
 
             <!-- RIGHT -->
-            <div class="relative">
-                <div class="absolute top-6 right-6 z-10 bg-gold text-black px-5 py-3 text-sm font-bold">
+            <div class="relative w-full">
+                <!-- Badge -->
+                <div
+                    class="absolute top-3 right-3 sm:top-6 sm:right-6 z-10 bg-gold text-black px-3 py-2 sm:px-5 sm:py-3 text-[10px] sm:text-sm font-bold tracking-wide shadow-lg">
                     <span data-i18n="offer_badge">
                         15% OFF HOJE
                     </span>
                 </div>
-                <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 p-8">
+
+                <!-- Container -->
+                <div
+                    class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 p-3 sm:p-5 md:p-8 overflow-hidden">
+
                     <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1200&auto=format&fit=crop"
-                        alt="Luxury Jewelry" class="w-full h-[620px] object-cover">
+                        alt="Luxury Jewelry"
+                        class="w-full h-[320px] sm:h-[450px] md:h-[620px] object-cover transition duration-500 hover:scale-[1.02]">
                 </div>
             </div>
         </div>
@@ -621,4 +628,5 @@
         );
     </script>
 </body>
+
 </html>
